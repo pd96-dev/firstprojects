@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg, lightyellow 20%, lightblue, lightpink);
+   
+}
+
+
+nav {
+   padding: 2%;
+   align-items: center;
+
+}
+
+.nav-left {
+float: left;
+}
+
+.nav-left:hover{
+    color: black;
+    background: rgb(238, 172, 4);
+}
+
+.nav-right {
+    align-items: center;
+
+}
+
+ul {
+
+    float: right;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(51, 202, 66);
+    padding: 1px 5px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+
+}
+ul li a:hover{
+    background: black;
+    color: white;
+}
+ul li.active a{
+    background-color: rgb(250, 246, 246);
+    color: rgb(11, 11, 11);
+}
+
+#home {
+    margin-top: 10%;
+    text-align: center;
+     display: block;
+    background: gray;
+    padding: 2%;
+    margin: 2%;
+    border: 2px solid black;
+   
+
+
+
+}
+#home:hover{
+    color: palevioletred;
+    background-color: lightblue;
+}
+
+main #duck {
+    text-align: center;
+    justify-content: center;
+    background: lightslategray;
+    padding: 2%;
+    margin: 2%;
+    border: 2px solid black;
+
+
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#emergency {
+   padding: 2%;
+   background: grey;
+   padding: 2%;
+   margin: 2%;
+   border: 2px solid black;
+}
+#contact{
+    background: lightslategray;
+    margin: 2%;
+    padding: 2%;
+    border: 2px solid black;
+}
+
+h2 {
+    text-align: center;
+    justify-content: center;
+}
+.text{
+  padding: 2px;
+}
+
+.grid-container {
+    grid-gap: 3px;
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+
+.grid-item {
+
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: x-large;
+}
+.grid-item:hover{
+    cursor: pointer;
+    background-color:black;
+
+}
+
+
+form{
+    display: grid;
+}
+
+
+.fotter-name {
+    justify-content: center;
+    padding: 1%;
+   
+}
+
+#github{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
